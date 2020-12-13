@@ -1,0 +1,244 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    height: 58px;
+    background-color: white;
+    letter-spacing: 4px;
+    font-size: 19px;
+    float: left;
+    font-weight: 500;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+}
+
+ul {
+    margin: 1px 42px auto 1px;
+
+}
+
+ul>li {
+    float: right;
+    list-style-type: none;
+    padding-top: 15px;
+    padding-left: 24px;
+}
+
+.logo {
+    float: left;
+    padding-left: 22px;
+    padding-top: 15px;
+}
+
+strong {
+    padding-right: 8px;
+}
+
+@media only screen and (max-width:644px) {
+    ul {
+        display: none;
+    }
+}
+
+a:hover {
+    background-color: #B4B5B2;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    position: relative;
+
+}
+
+.header img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.lg span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 7px;
+}
+
+.br {
+    background-color: black;
+    opacity: 0.8;
+    padding: 18px;
+}
+
+@media only screen and (max-width:644px) {
+    .none {
+        display: none;
+    }
+}
+
+.site-header {
+    position: relative;
+}
+
+.projects {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    margin: 10px 35px;
+    font-size: 24px;
+    float: left;
+    position: relative;
+}
+
+.projects img {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    object-fit: cover;
+    height: 250px;
+}
+
+@media only screen and (max-width:644px) {
+    .projects img {
+        width: 100%;
+    }
+
+    .projects {
+        height: auto;
+    }
+}
+
+@media (min-width:644px) and (max-width:992px) {
+    .projects img {
+        width: 50%;
+    }
+
+    .projects {
+        height: auto;
+    }
+}
+
+.about {
+    float: left;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 10px 35px;
+}
+
+.ab {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+
+.about img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.muted {
+    color: gray;
+    opacity: 0.8;
+}
+
+.about button {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.about button:hover {
+    background-color: rgb(192, 187, 187);
+}
+
+.about-text {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+@media only screen and (max-width:644px) {
+    .ab {
+        width: 100%;
+    }
+}
+
+@media (min-width:644px) and (max-width:992px) {
+    .ab {
+        width: 50%;
+    }
+}
+
+.contact {
+    float: left;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 35px;
+    width: 96%;
+}
+
+input[type=text] {
+    padding: 16px 8px;
+    width: 100%;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    color: white;
+    background-color: black;
+    padding: 14px;
+    margin: 20px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: rgb(197, 197, 197);
+    transition: .2s linear;
+}
+
+.footer {
+    float: left;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 10px 35px;
+}
+.footer  img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+.footer-text{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    font-weight: 500;
+    color: white;
+}
